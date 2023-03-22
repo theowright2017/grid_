@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import { Calendar2 } from "./Calendar";
+import { Table } from "./Table";
+
+// import "normalize.css";
+// // import "@blueprintjs/core/lib/css/blueprint.css";
+// // import "@blueprintjs/icons/lib/css/blueprint-icons.css";
+// import "@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+// // import "@blueprintjs/popover2/lib/css/blueprint-popover2.css";
+// import "@blueprintjs/table/lib/css/table.css";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // return <Calendar2 />;
+
+  return <Table />;
 }
 
 export default App;
